@@ -3,7 +3,6 @@ let myButton = document.getElementById('mybtn');
 myButton.addEventListener('click', (e) => {
     e.preventDefault();
     let reqMovie = document.getElementById('film-name').value;
-    console.log('valeur saisie', reqMovie);
     let Apikey = '4ccef685';
 
 
@@ -15,7 +14,6 @@ myButton.addEventListener('click', (e) => {
             .then(response => response.json())
             .then(data => {
                 let movie = data.Search;
-                console.log(movie)
 
                 for (myMovies of movie) {
                     let Myhtml =`
