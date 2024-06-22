@@ -31,6 +31,9 @@ h1 {
     font-family: "Anton", sans-serif;
     color: #E3E4C7;
     animation: fade 2s linear infinite;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px#D53748;
+    ;
 }
 
 @keyframes fade {
